@@ -62,7 +62,7 @@ function App() {
         <div className="max-w-7xl mx-auto relative z-10 ">
           <div className="text-center animate-fade-up">
             <h1 className="text-5xl md:text-7xl font-bold text-black mb-6 tracking-tight">
-              Your AI Partner               <span className="block mt-2 bg-gradient-to-r from-black to-black/70 bg-clip-text text-transparent">
+              Your AI Partner    karan            <span className="block mt-2 bg-gradient-to-r from-black to-black/70 bg-clip-text text-transparent">
                 for Affordable Growth
               </span>
             </h1>
