@@ -255,22 +255,26 @@ function App() {
           </div>
         </div>
       </section>
-      {/* Contact Section */}
-      <section
-        id="contact"
-        className="py-24 px-4 sm:px-6 lg:px-8 bg-[#FAF7F5]"
-      >
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center max-w-3xl mx-auto animate-fade-up">
-            <h2 className="text-4xl font-bold text-black mb-6">Ready to Get Started?</h2>
-            <p className="text-lg text-black/70 mb-8">
-              Let's discuss how our AI solutions can help your business grow.
-            </p>
-            {/* Button to trigger ContactUs modal */}
-            <ContactUs />
-          </div>
-        </div>
-      </section>
+      {/* contact */}
+      <div id="contact" className="py-24 px-4 sm:px-6 lg:px-8 bg-[#FAF7F5]">
+  <div className="max-w-7xl mx-auto">
+    <div className="text-center max-w-3xl mx-auto">
+      <h2 className="text-4xl font-bold text-black mb-6">
+        Ready to Get Started?
+      </h2>
+      <p className="text-lg text-black/70 mb-8">
+        Let's discuss how our AI solutions can help your business grow.
+      </p>
+      <ContactUs />
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
 
 
 

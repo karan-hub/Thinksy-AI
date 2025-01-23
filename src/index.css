@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 @layer base {
   html {
     scroll-behavior: smooth;
@@ -118,4 +120,26 @@ section {
 section.visible {
   opacity: 1;
   transform: translateY(0);
+}
+.modal {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 100%;
+}
+/* Global Styles for Debugging */
+section {
+  overflow: visible !important;
+  position: static !important;
 }
